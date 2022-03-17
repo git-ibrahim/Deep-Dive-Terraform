@@ -9,7 +9,7 @@ variable "region" {
 variable "consul_address" {
   type        = string
   description = "Address of Consul server"
-  default     = "host-gateway"
+  default     = "127.0.0.1"
 }
 
 variable "consul_port" {
